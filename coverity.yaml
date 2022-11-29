@@ -1,5 +1,12 @@
 analyze:
-  location: local
+  checkers:
+    all: true
+    webapp-security:
+      aggressiveness-level: high
+capture:
+  build:
+    clean-command: mvn clean package
+    build-command: mvn clean package -DskipTests=true
 commit:
   connect:
     stream: insecure-bank-master
