@@ -248,7 +248,7 @@ public class DashboardController {
 	private int writeResponse(final InputStream is, final OutputStream out) {
 		int total = 0;
 		// dead code demo
-		if (total = 0) {
+		if (total == 0) {
 			return total;
 		} else {
 			return 0;
