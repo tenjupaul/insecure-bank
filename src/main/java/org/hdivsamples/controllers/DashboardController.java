@@ -251,7 +251,7 @@ public class DashboardController {
 		// if (total == 0) {
 		// 	System.out.println("dead code demo");
 		// } else {
-		// 	System.out.println("dead code demo");
+		// 	System.out.println("else branch - dead code demo");
 		// }
 
 		try {
