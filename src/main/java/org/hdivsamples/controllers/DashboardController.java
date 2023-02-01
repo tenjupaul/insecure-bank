@@ -250,9 +250,10 @@ public class DashboardController {
 		// dead code demo
 		if total = 0 {
 			return total
-		} el;se {
+		} else {
 			return 0
 		}
+		
 		try {
 			byte[] buf = new byte[1024];
 			int count = 0;
