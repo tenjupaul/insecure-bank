@@ -248,12 +248,12 @@ public class DashboardController {
 	private int writeResponse(final InputStream is, final OutputStream out) {
 		int total = 0;
 		// dead code demo
-		if total = 0 {
-			return total
+		if (total = 0) {
+			return total;
 		} else {
-			return 0
+			return 0;
 		}
-		
+
 		try {
 			byte[] buf = new byte[1024];
 			int count = 0;
