@@ -248,11 +248,11 @@ public class DashboardController {
 	private int writeResponse(final InputStream is, final OutputStream out) {
 		int total = 0;
 		// dead code demo
-		if (total == 0) {
-			System.out.println("dead code demo");
-		} else {
-			System.out.println("dead code demo");
-		}
+		// if (total == 0) {
+		// 	System.out.println("dead code demo");
+		// } else {
+		// 	System.out.println("dead code demo");
+		// }
 
 		try {
 			byte[] buf = new byte[1024];
