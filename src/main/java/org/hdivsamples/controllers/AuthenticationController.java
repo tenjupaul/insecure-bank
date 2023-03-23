@@ -19,6 +19,14 @@ public class AuthenticationController {
 
 	@RequestMapping("/403")
 	public String error403(final Model model) {
+		// demo dead code
+		int num = 5;
+		if (num < 10) {
+			return "error403";
+		}else {
+			System.out.println("demo dead code");
+		}
 		return "error403";
 	}
 }
+
